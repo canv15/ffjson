@@ -1,6 +1,7 @@
 # ffjson: faster JSON for Go
 
 [![Build Status](https://travis-ci.org/pquerna/ffjson.svg?branch=master)](https://travis-ci.org/pquerna/ffjson)
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fcanv15%2Fffjson.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fcanv15%2Fffjson?ref=badge_shield)
 
 `ffjson` generates static `MarshalJSON` and `UnmarshalJSON` functions for structures in Go. The generated functions reduce the reliance upon runtime reflection to do serialization and are generally 2 to 3 times faster.  In cases where `ffjson` doesn't understand a Type involved, it falls back to `encoding/json`, meaning it is a safe drop in replacement.  By using `ffjson` your JSON serialization just gets faster with no additional code changes.
 
@@ -230,3 +231,6 @@ Please [open issues in Github](https://github.com/pquerna/ffjson/issues) for ide
 
 `ffjson` is licensed under the [Apache License, Version 2.0](./LICENSE)
 
+
+
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fcanv15%2Fffjson.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Fcanv15%2Fffjson?ref=badge_large)
